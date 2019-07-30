@@ -8,5 +8,10 @@ namespace DZ.HelloWorld.WebApp.Controllers
         {
             return "Hello World!";
         }
+
+        public string SayHello(string name)
+        {
+            return $"Hello {name}";
+        }
     }
 }
